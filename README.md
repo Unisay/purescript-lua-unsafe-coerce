@@ -18,4 +18,4 @@ Module documentation is [published on Pursuit](http://pursuit.purescript.org/pac
 
 ## Links
 
-- [PureScript Compiler Backend for Lua ](https://github.com/Unisay/purescript-lua)
+- [PureScript Compiler Backend for Lua ](https://github.com/purescript-lua/purescript-lua)
