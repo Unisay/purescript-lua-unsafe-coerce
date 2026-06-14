@@ -25,6 +25,6 @@ coerceFoos = unsafeCoerce
 
 main :: Effect Unit
 main =
-  case coerceFoos [Foo "Hello", Foo " ", Foo "World"] of
-    [Bar x, Bar y, Bar z] -> log (x <> y <> z)
+  case coerceFoos [ Foo "Hello", Foo " ", Foo "World" ] of
+    [ Bar x, Bar y, Bar z ] -> log (x <> y <> z)
     _ -> log "impossible"
